@@ -34,12 +34,12 @@
             txtCarName = new TextBox();
             lbManufacturer = new Label();
             lbPrice = new Label();
-            txtPrice = new TextBox();
             lbReleaseYear = new Label();
-            txtReleaseYear = new TextBox();
             btnSave = new Button();
             btnCancel = new Button();
             cboManufacturer = new ComboBox();
+            txtPrice = new MaskedTextBox();
+            txtReleaseYear = new MaskedTextBox();
             SuspendLayout();
             // 
             // lbCarID
@@ -92,13 +92,6 @@
             lbPrice.TabIndex = 0;
             lbPrice.Text = "Price";
             // 
-            // txtPrice
-            // 
-            txtPrice.Location = new Point(298, 267);
-            txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(241, 27);
-            txtPrice.TabIndex = 1;
-            // 
             // lbReleaseYear
             // 
             lbReleaseYear.AutoSize = true;
@@ -107,13 +100,6 @@
             lbReleaseYear.Size = new Size(88, 20);
             lbReleaseYear.TabIndex = 0;
             lbReleaseYear.Text = "ReleaseYear";
-            // 
-            // txtReleaseYear
-            // 
-            txtReleaseYear.Location = new Point(298, 322);
-            txtReleaseYear.Name = "txtReleaseYear";
-            txtReleaseYear.Size = new Size(241, 27);
-            txtReleaseYear.TabIndex = 1;
             // 
             // btnSave
             // 
@@ -146,17 +132,37 @@
             cboManufacturer.Size = new Size(241, 28);
             cboManufacturer.TabIndex = 3;
             // 
+            // txtPrice
+            // 
+            txtPrice.Location = new Point(298, 271);
+            txtPrice.Mask = "000000000";
+            txtPrice.Name = "txtPrice";
+            txtPrice.Size = new Size(241, 27);
+            txtPrice.TabIndex = 4;
+            txtPrice.Text = "0";
+            txtPrice.ValidatingType = typeof(int);
+            // 
+            // txtReleaseYear
+            // 
+            txtReleaseYear.Location = new Point(298, 326);
+            txtReleaseYear.Mask = "0000";
+            txtReleaseYear.Name = "txtReleaseYear";
+            txtReleaseYear.Size = new Size(241, 27);
+            txtReleaseYear.TabIndex = 4;
+            txtReleaseYear.Text = "0";
+            txtReleaseYear.ValidatingType = typeof(int);
+            // 
             // frmCarDetails
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtReleaseYear);
+            Controls.Add(txtPrice);
             Controls.Add(cboManufacturer);
             Controls.Add(btnCancel);
             Controls.Add(btnSave);
-            Controls.Add(txtReleaseYear);
             Controls.Add(lbReleaseYear);
-            Controls.Add(txtPrice);
             Controls.Add(lbPrice);
             Controls.Add(lbManufacturer);
             Controls.Add(txtCarName);
@@ -179,11 +185,11 @@
         private TextBox txtCarName;
         private Label lbManufacturer;
         private Label lbPrice;
-        private TextBox txtPrice;
         private Label lbReleaseYear;
-        private TextBox txtReleaseYear;
         private Button btnSave;
         private Button btnCancel;
         private ComboBox cboManufacturer;
+        private MaskedTextBox txtPrice;
+        private MaskedTextBox txtReleaseYear;
     }
 }
