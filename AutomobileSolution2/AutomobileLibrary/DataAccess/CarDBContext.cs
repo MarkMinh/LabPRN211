@@ -135,7 +135,7 @@ namespace AutomobileLibrary.DataAccess
                 Car c = GetCarByID(car.CarID);
                 if (c != null)
                 {
-                    string SQLUpdate = "Update Cars set CarName = @CarName,Manufacture = @Manufacturer," +
+                    string SQLUpdate = "Update Cars set CarName = @CarName,Manufacturer = @Manufacturer," +
                         "Price = @Price,ReleaseYear=@ReleaseYear where CarID=@CarID";
                     var parameters = new List<SqlParameter>();
                     parameters.Add(dataProvider.CreateParameter("@CarID",4, car.CarID, DbType.Int32));

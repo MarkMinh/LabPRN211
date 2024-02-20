@@ -88,7 +88,9 @@ namespace AutomobileWinApp
             };
             if (frmCarDetails.ShowDialog() == DialogResult.OK)
             {
-
+                IEnumerable<Car> cars = carRepository.GetCars();
+                LoadCarList();
+                source.Position = source.Count - 1;
             }
 
         }
