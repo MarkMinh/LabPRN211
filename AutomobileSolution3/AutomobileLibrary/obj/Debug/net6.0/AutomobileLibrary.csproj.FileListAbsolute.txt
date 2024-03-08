@@ -1,0 +1,14 @@
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.deps.json
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.runtimeconfig.json
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.dll
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.pdb
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.csproj.AssemblyReference.cache
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.AssemblyInfoInputs.cache
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.AssemblyInfo.cs
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.csproj.CoreCompileInputs.cache
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.dll
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\refint\AutomobileLibrary.dll
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.pdb
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.genruntimeconfig.cache
+F:\VisualStudioDownload\ProjectC#\AutomobileSolution3\AutomobileLibrary\obj\Debug\net6.0\ref\AutomobileLibrary.dll
